@@ -4,4 +4,4 @@ app= FastAPI()
 
 @app.get('/')
 def home(request:Request):
-    return "Namasthe Loka!"
+    return "Hello world!"
